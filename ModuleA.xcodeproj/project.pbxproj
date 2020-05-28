@@ -63,8 +63,8 @@
 		AC7FCDF6AE2AAF215A2EFC3A /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		AFFE4DEEA264962DDD111E3E /* ModuleA_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleA_Extension.swift; path = Extension/ModuleA_Extension.swift; sourceTree = "<group>"; };
 		B4EC9E6F39A0599BB725C583 /* Target_ModuleA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_ModuleA.swift; path = Source/Target/Target_ModuleA.swift; sourceTree = "<group>"; };
-		DBB049C152CAEEF85491C415 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
-		DC168CC155D795399A9FCAAC /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
+		DBB049C152CAEEF85491C415 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
+		DC168CC155D795399A9FCAAC /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		E40EC717247FDA95002A823F /* ModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40EC71A247FDA95002A823F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E40EC71B247FDA95002A823F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -230,8 +230,7 @@
 		E40EC719247FDA95002A823F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				E40EC754247FE34B002A823F /* AViewController.h */,
-				E40EC755247FE34B002A823F /* AViewController.m */,
+				E40EC757248002BD002A823F /* ModuleA */,
 				E40EC71A247FDA95002A823F /* AppDelegate.h */,
 				E40EC71B247FDA95002A823F /* AppDelegate.m */,
 				E40EC71D247FDA95002A823F /* SceneDelegate.h */,
@@ -275,6 +274,15 @@
 				E40EC743247FDA97002A823F /* Info.plist */,
 			);
 			path = ModuleAUITests;
+			sourceTree = "<group>";
+		};
+		E40EC757248002BD002A823F /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				E40EC754247FE34B002A823F /* AViewController.h */,
+				E40EC755247FE34B002A823F /* AViewController.m */,
+			);
+			path = ModuleA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
