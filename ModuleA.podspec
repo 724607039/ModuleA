@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 7
+# version.develop = 0
 # version.test = 0
 # version.gray = 0
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ModuleA"
-  s.version      = "7.0.0"
+  s.version      = "1"
   s.swift_version = '5.1'
   s.summary      = "ModuleA."
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
                     this is ModuleA
                    DESC
 
-  s.homepage     = "https://github.com/724607039/ModuleA.git"
+  s.homepage     = "https://github.com/724607039/ModuleA"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

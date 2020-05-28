@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
                     this is ModuleA_Extension
                    DESC
 
-  s.homepage     = "https://github.com/724607039/ModuleA.git"
+  s.homepage     = "https://github.com/724607039/ModuleA"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1301343571C5E5FEEF6174DE /* ModuleA_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C0F4D50DD6B8F93BA9D76 /* ModuleA_Extension.swift */; };
 		1432B22CE226AB1D0D33F71D /* ModuleA_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0130230578AC4258F57823E9 /* ModuleA_Extension.swift */; };
 		20E807C6B98B9E0B76827C7B /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4390CA4345A73D48DAA715BC /* DemoViewController.swift */; };
+		2D1E0C62D23C88137B5FEF23 /* Target_ModuleA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387771A4F013CE762C71F6C2 /* Target_ModuleA.swift */; };
 		5E175615618B3A495E45807B /* Target_ModuleA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804F4DBCB4ABC32CBB5060E /* Target_ModuleA.swift */; };
 		72BBF557558A77AA699FE29C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3A204CD1CA6B71E939DA0 /* DemoViewController.swift */; };
 		9890957BE80EA7857995F442 /* Target_ModuleA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EC9E6F39A0599BB725C583 /* Target_ModuleA.swift */; };
 		9D018559B6982362BB624BE6 /* ModuleA_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFE4DEEA264962DDD111E3E /* ModuleA_Extension.swift */; };
+		B75C30A7E316D21AF493233C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E6F12429C2B84F9930CD2E /* DemoViewController.swift */; };
 		E40EC71C247FDA95002A823F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC71B247FDA95002A823F /* AppDelegate.m */; };
 		E40EC71F247FDA95002A823F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC71E247FDA95002A823F /* SceneDelegate.m */; };
 		E40EC722247FDA95002A823F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC721247FDA95002A823F /* ViewController.m */; };
@@ -50,13 +53,18 @@
 		125F982F77CCB861B9B4F809 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
 		28023DD1AEA5020B2B77AA40 /* Pods-ModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA.release.xcconfig"; path = "Target Support Files/Pods-ModuleA/Pods-ModuleA.release.xcconfig"; sourceTree = "<group>"; };
 		290A9670D128E32BABDC82F6 /* Pods-ModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA.debug.xcconfig"; path = "Target Support Files/Pods-ModuleA/Pods-ModuleA.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6C0F4D50DD6B8F93BA9D76 /* ModuleA_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleA_Extension.swift; path = Extension/ModuleA_Extension.swift; sourceTree = "<group>"; };
+		387771A4F013CE762C71F6C2 /* Target_ModuleA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_ModuleA.swift; path = Source/Target/Target_ModuleA.swift; sourceTree = "<group>"; };
 		4390CA4345A73D48DAA715BC /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 		4A91EB42F2A1BDF2CBE9AC65 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
 		95CE8FE2F7E6F9ED2FF36D06 /* Pods_ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E6F12429C2B84F9930CD2E /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 		A8338F294995871D4C7930A8 /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		AC7FCDF6AE2AAF215A2EFC3A /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		AFFE4DEEA264962DDD111E3E /* ModuleA_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleA_Extension.swift; path = Extension/ModuleA_Extension.swift; sourceTree = "<group>"; };
 		B4EC9E6F39A0599BB725C583 /* Target_ModuleA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_ModuleA.swift; path = Source/Target/Target_ModuleA.swift; sourceTree = "<group>"; };
+		DBB049C152CAEEF85491C415 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
+		DC168CC155D795399A9FCAAC /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		E40EC717247FDA95002A823F /* ModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40EC71A247FDA95002A823F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E40EC71B247FDA95002A823F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +118,14 @@
 			children = (
 				0130230578AC4258F57823E9 /* ModuleA_Extension.swift */,
 				AFFE4DEEA264962DDD111E3E /* ModuleA_Extension.swift */,
+				2C6C0F4D50DD6B8F93BA9D76 /* ModuleA_Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		2C47FB4E65581D405F1925A4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -121,11 +137,19 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
+		4178FD87C25EAA4035C41F23 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
 		4A5D9337B4DBB4856D74727B /* Target */ = {
 			isa = PBXGroup;
 			children = (
 				0804F4DBCB4ABC32CBB5060E /* Target_ModuleA.swift */,
 				B4EC9E6F39A0599BB725C583 /* Target_ModuleA.swift */,
+				387771A4F013CE762C71F6C2 /* Target_ModuleA.swift */,
 			);
 			name = Target;
 			sourceTree = "<group>";
@@ -135,6 +159,13 @@
 			children = (
 			);
 			name = Target;
+			sourceTree = "<group>";
+		};
+		72DBC1BCC8878D96A2F62B22 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 		8B59C9F1FCE3612F062FC4EC /* Pods */ = {
@@ -153,6 +184,8 @@
 				10E3A204CD1CA6B71E939DA0 /* DemoViewController.swift */,
 				5C9F9A9973673B25A0B530CC /* Target */,
 				4390CA4345A73D48DAA715BC /* DemoViewController.swift */,
+				4178FD87C25EAA4035C41F23 /* Target */,
+				95E6F12429C2B84F9930CD2E /* DemoViewController.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -218,6 +251,10 @@
 				3FFD8C42F60D0A93F90CF5D6 /* Extension */,
 				AC7FCDF6AE2AAF215A2EFC3A /* ModuleA_Extension.podspec */,
 				4A91EB42F2A1BDF2CBE9AC65 /* ModuleA.podspec */,
+				72DBC1BCC8878D96A2F62B22 /* Source */,
+				2C47FB4E65581D405F1925A4 /* Extension */,
+				DC168CC155D795399A9FCAAC /* ModuleA_Extension.podspec */,
+				DBB049C152CAEEF85491C415 /* ModuleA.podspec */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -425,6 +462,9 @@
 				9890957BE80EA7857995F442 /* Target_ModuleA.swift in Sources */,
 				20E807C6B98B9E0B76827C7B /* DemoViewController.swift in Sources */,
 				9D018559B6982362BB624BE6 /* ModuleA_Extension.swift in Sources */,
+				2D1E0C62D23C88137B5FEF23 /* Target_ModuleA.swift in Sources */,
+				B75C30A7E316D21AF493233C /* DemoViewController.swift in Sources */,
+				1301343571C5E5FEEF6174DE /* ModuleA_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
