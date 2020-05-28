@@ -197,7 +197,8 @@
 		E40EC719247FDA95002A823F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				E40EC74F247FE000002A823F /* ModuleA */,
+				E40EC754247FE34B002A823F /* AViewController.h */,
+				E40EC755247FE34B002A823F /* AViewController.m */,
 				E40EC71A247FDA95002A823F /* AppDelegate.h */,
 				E40EC71B247FDA95002A823F /* AppDelegate.m */,
 				E40EC71D247FDA95002A823F /* SceneDelegate.h */,
@@ -237,15 +238,6 @@
 				E40EC743247FDA97002A823F /* Info.plist */,
 			);
 			path = ModuleAUITests;
-			sourceTree = "<group>";
-		};
-		E40EC74F247FE000002A823F /* ModuleA */ = {
-			isa = PBXGroup;
-			children = (
-				E40EC754247FE34B002A823F /* AViewController.h */,
-				E40EC755247FE34B002A823F /* AViewController.m */,
-			);
-			path = ModuleA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
