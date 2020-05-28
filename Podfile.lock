@@ -1,0 +1,21 @@
+PODS:
+  - B_Category (1.1):
+    - CTMediator
+  - CTMediator (32)
+
+DEPENDENCIES:
+  - B_Category
+  - CTMediator
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - B_Category
+    - CTMediator
+
+SPEC CHECKSUMS:
+  B_Category: d643bbbb97fcb1271c9f298a762a385d1c3e7bf9
+  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
+
+PODFILE CHECKSUM: cfd5282b0d92834e6d1ca1b585d496d903e970c6
+
+COCOAPODS: 1.9.1
