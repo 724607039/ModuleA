@@ -62,14 +62,14 @@
 		4A91EB42F2A1BDF2CBE9AC65 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
 		8A4261A21A6D33AB15B28BB2 /* Target_ModuleA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_ModuleA.swift; path = Source/Target/Target_ModuleA.swift; sourceTree = "<group>"; };
 		8BB5CEE544E134AD5F3B2726 /* ModuleA_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleA_Extension.swift; path = Extension/ModuleA_Extension.swift; sourceTree = "<group>"; };
-		94D535082DBDA79147AC0405 /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
+		94D535082DBDA79147AC0405 /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		95CE8FE2F7E6F9ED2FF36D06 /* Pods_ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E6F12429C2B84F9930CD2E /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 		A8338F294995871D4C7930A8 /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		AC7FCDF6AE2AAF215A2EFC3A /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		AFFE4DEEA264962DDD111E3E /* ModuleA_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleA_Extension.swift; path = Extension/ModuleA_Extension.swift; sourceTree = "<group>"; };
 		B4EC9E6F39A0599BB725C583 /* Target_ModuleA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_ModuleA.swift; path = Source/Target/Target_ModuleA.swift; sourceTree = "<group>"; };
-		CCFF99EEA3F18FE7D45320C4 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
+		CCFF99EEA3F18FE7D45320C4 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
 		DBB049C152CAEEF85491C415 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA.podspec; path = ../ModuleA.podspec; sourceTree = "<group>"; };
 		DC168CC155D795399A9FCAAC /* ModuleA_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ModuleA_Extension.podspec; path = ../ModuleA_Extension.podspec; sourceTree = "<group>"; };
 		E40EC717247FDA95002A823F /* ModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +211,8 @@
 		97760B3B913CDEB6933B1569 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E40EC754247FE34B002A823F /* AViewController.h */,
+				E40EC755247FE34B002A823F /* AViewController.m */,
 				4A5D9337B4DBB4856D74727B /* Target */,
 				10E3A204CD1CA6B71E939DA0 /* DemoViewController.swift */,
 				5C9F9A9973673B25A0B530CC /* Target */,
@@ -316,8 +318,6 @@
 		E40EC757248002BD002A823F /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				E40EC754247FE34B002A823F /* AViewController.h */,
-				E40EC755247FE34B002A823F /* AViewController.m */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";

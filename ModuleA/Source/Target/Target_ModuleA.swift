@@ -14,6 +14,7 @@ import UIKit
         if let callback = params["callback"] as? (String) -> Void {
             callback("hello \(name) !")
         }
+        //错的source路径。
         
         let viewController = DemoViewController()
         return viewController
