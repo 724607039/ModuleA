@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
                     this is ModuleA_Extension
                    DESC
 
-  s.homepage     = "https://github.com/724607039/ModuleA"
+  s.homepage     = "https://github.com/724607039/A_Category/tree/master"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/724607039/ModuleA.git", :tag => "Extension-"+s.version.to_s }
+  s.source       = { :git => "https://github.com/724607039/A_Category.git", :tag => "Extension-"+s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

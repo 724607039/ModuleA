@@ -2,8 +2,7 @@
 # platform :ios, '9.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/724607039/MyProject.git'
-
+source 'https://github.com/724607039/MyzujianProject.git'
 
 use_frameworks!
 use_modular_headers!
